@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    border: 2px solid bisque;
+    /* 2 pixels de largura, sólida e cor preta (substitua pela cor desejada) */
+    padding: 10px;
+    /* Adiciona algum espaço interno para o texto não encostar na borda */
+    color: bisque;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+}
+
+body {
+
+    background-color: bisque;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px
+}
+
+header nav li a {
+    color: bisque;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+header nav li a:hover {
+    color: bisque;
+    text-decoration: underline;
+
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store-front {
+    width: 600px;
+    margin: 24px auto;
+}
+
+section .container {
+    display: flex;
+
+}
+
+.sobre-nós {
+    margin: 24px;
+
+}
+
+section .container p,
+h2 {
+    margin-bottom: 8px;
+}
+
+.brands-list img {
+    width: 60px;
+
+}
+
+.brands-list li {
+    display: inline;
+    align-items: center;
+    margin-left: 8px;
+}
+
+#cartão .container {
+    margin-top: 10px;
+}
+
+.container form {
+    margin-bottom: 8px;
+}
+
+form input,
+textarea {
+    background-color: bisque;
+    border: 2px solid black;
+    width: 300px;}
+
+    input:hover, textarea:hover {
+        background-color: rgb(207, 157, 95);
+        border: 4px solid black;
+}
+
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+
+.meio-contato {
+    display: flex;
+}
+
+#btnForm {
+    width: 300px;
+    border-radius: 20px;
+}
+
+#btnForm:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#contato {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logos-sociais img {
+    width: 32px;
+    margin: 6px;
+}
+
+.logos-sociais {
+    display: flex;
+}
